@@ -1,0 +1,113 @@
+/* Basic Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #101827;
+    color: white;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #080d18;
+    padding: 15px;
+}
+
+header h2 {
+    color: #00ff99;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+/* Navigation Hover */
+nav a:hover {
+    color: #00ff99;
+}
+
+/* Home Section */
+#home {
+    padding: 40px 20px;
+}
+
+h1 {
+    color: #00ff99;
+    font-size: 35px;
+}
+
+#home img {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 15px;
+    margin: 20px;
+    transition: transform 0.4s;
+}
+
+/* Image Hover Effect */
+#home img:hover {
+    transform: scale(1.1);
+}
+
+/* Button */
+.button {
+    display: inline-block;
+    background-color: #00ff99;
+    color: #101827;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin: 15px;
+    transition: background-color 0.4s;
+}
+
+/* Button Colour Transition */
+.button:hover {
+    background-color: #0099ff;
+    color: white;
+}
+
+/* Features Section */
+#features {
+    padding: 30px 20px;
+    background-color: #182337;
+}
+
+.feature {
+    background-color: #24334a;
+    margin: 15px auto;
+    padding: 15px;
+    max-width: 400px;
+    border-radius: 10px;
+    transition: background-color 0.4s;
+}
+
+/* Feature Hover */
+.feature:hover {
+    background-color: #00664d;
+}
+
+/* Contact Section */
+#contact {
+    padding: 35px 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #080d18;
+    padding: 15px;
+}
+
+/* Mobile Screen */
+@media (max-width: 500px) {
+    h1 {
+        font-size: 28px;
+    }
+
+    nav a {
+        margin: 5px;
+        font-size: 14px;
+    }
+}
